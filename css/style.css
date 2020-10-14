@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #fbfcfc;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+}
+ul, ol{
+    list-style: none;
+}
+
+/* ----- Main CSS Starts ----- */
+.banner{
+    background: url("../img/ILLUSTRATION.png") right top no-repeat;
+    background-size: 60%;
+}
+.logo{
+    padding-top: 80px;
+}
+.header-links{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.header-links li{
+    margin-top: 0px;
+}
+.header-links li a{
+    color: #fff;
+}
+.header-links li .btn{
+    font-size: 14px;
+    background: #fff;
+    color: #14215e;
+    padding: 3px 25px;
+    border-radius: 6px;
+}
+.header-links li .btn:hover{
+    background: transparent;
+    border: 1px solid#fff;
+    color: #fff;
+}
+.banner-inner{
+    margin: 150px 0px 0px 90px;
+    width: 110%;
+    padding-bottom: 130px;
+}
+.banner-inner h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #1c2056;
+}
+.banner-inner p{
+    margin-top: 60px;
+    color: #2d2058;
+    font-size: 12px;
+}
+.banner-inner .btn{
+    margin-top: 60px;
+    padding: 15px 45px;
+    font-size: 14px;
+    color: #fff;
+    background: #2870db;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+.banner-inner .btn:hover{
+    background: #fff;
+    color: #2d2058;
+}
+
+/* ----- Feature section css starts ----- */
+.features{
+    background: url("../img/bg-features.png") center left no-repeat, url("../img/bg-features-2.png") top right no-repeat;
+    background-size: 100%;
+    background-position: 0% 90%;
+}
+.features-header-inner h2{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.feature-img{
+    padding-left: 160px;
+    padding-bottom: 50px;
+}
+.feature-box{
+    padding: 60px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(24, 76, 124, 0.19), 0 6px 6px rgba(37, 84, 138, 0.23);
+    width: 135%;
+    border-radius: 15px;
+}
+.feature-header{
+    font-weight: bold;
+    font-size: 16px;
+}
+.f2{
+    margin-left: 140px;
+    width: 130%;
+}
+.image-02{
+    padding-left: 330px;
+    margin-top: -150px;
+}
+.image-03{
+    margin-top: -100px;
+}
+.feature-button .btn{
+    float: right;
+    margin-top: 160px;
+    margin-right: -110px;
+    padding: 15px 55px;
+    font-size: 14px;
+    color: #fff;
+    background: #2870db;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+.feature-button .btn:hover{
+    background: #fff;
+    color: #2d2058;
+}
+.statistics-header{
+    margin-top: 190px;
+    margin-bottom: 100px;
+}
+.statistics-header h2{
+    font-weight: bold;
+}
+.statistics-container{}
+.statistics-container h2{
+    color: #1a56a3;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ----- News section css starts ----- */
+.news{
+    background: url("../img/card-bg-1.png") center left no-repeat, url("../img/card-bg-2.png") center right no-repeat;
+    background-size: 15%;
+}
+.news-header{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.news-header h2{}
+.bg-1{
+    background: url("../img/card-img-1.png") center center no-repeat;
+    width: 425px;
+    height: 752px;
+}
+.bg-2{
+    background: url("../img/card-img-2.png") center center no-repeat;
+    width: 425px;
+    height: 752px;
+}
+.bg-3{
+    background: url("../img/card-img-3.png") center center no-repeat;
+    width: 425px;
+    height: 752px;
+}
+.card-img .news-container{
+    width: 350px;
+    padding: 260px 0px 0px 65px;
+}
+.card-img .news-container h4{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.card-img .news-container p{
+    color: #546e7a;
+    font-size: 17px;
+    margin-bottom: 70px;
+}
+.card-img .news-container a{
+    color: #2870db;
+    font-weight: 600;
+}
+
+/* ----- Footer section css codes starts ----- */
+.blue-bg-form{
+    background: #3072c0 url("../img/form-bg.png") center left no-repeat;
+    background-size: 53%;
+    width: 101%;
+    border-radius: 15px;
+    margin-left: 3%;
+    display: block;
+}
+.blue-bg-form h4{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    color: #fff;
+}
+.blue-bg-form form{
+    text-align: center;
+}
+.blue-bg-form form .name{
+    background: #fff;
+    width: 30%;
+    padding: 8px 0px;
+    margin-bottom: 35px;
+    border: none;
+    border-radius: 10px;
+}
+.blue-bg-form form input::placeholder{
+    color: #546e7a;
+    padding-left: 20px;
+}
+.blue-bg-form form input:focus{
+    outline: none;
+}
+.blue-bg-form form .btn{
+    background: #00aeff;
+    color: #fff;
+    padding: 15px 45px;
+    border-radius: 25px;
+    border: none;
+    font-size: 13px;
+    margin-bottom: 95px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+.blue-bg-form form .btn:hover{
+    background: #fff;
+    color: #1c2056;
+}
+
+/* ----- Main footer css starts ----- */
+.main-footer{
+    background: url("../img/footer-bg.png") center top no-repeat;
+    background-size: cover;
+    margin-top: -20%;
+}
+.extra-gap{
+    margin: 0px 23px;
+}
+.extra-gap-last{
+    max-width: 100% !important;
+}
+.footer-inner{
+    margin-top: 350px;
+    margin-bottom: 50px;
+}
+.footer-inner h5{
+    margin-bottom: 45px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-inner p{
+    color: #fff;
+}
+.footer-inner a{
+    color: #fff;
+}
+.footer-inner .information{
+    margin-top: 30px;
+}
+.footer-inner .social-icons{
+    display: flex;
+    margin-top: 75px;
+    margin-bottom: 85px;
+}
+.footer-inner .social-icons a .fa{
+    margin-right: 10px;
+    font-size: 28px;
+    padding: 8px;
+    border-radius: 28px;
+    background: #fff;
+    color: #2376cf;
+    transition: all 0.3s ease 0s;
+}
+.footer-inner .social-icons a .fa-instagram{
+    padding: 8px 10px;
+}
+.footer-inner .social-icons a .fa-facebook{
+    padding: 8px 14px;
+}
+.footer-inner .social-icons a .fa:hover{
+    background: #2376cf;
+    color: #fff;
+}
