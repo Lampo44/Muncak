@@ -289,6 +289,10 @@ ul, ol{
 }
 
 /* ------ Media Queries Codes for Responsiveness below ------- */
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
 @media (min-width: 768px) and (max-width: 1024px) {
   
     .navbar{
@@ -386,6 +390,30 @@ ul, ol{
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
+    .navbar-collapse ul li .nav-link{
+        color: #fff !important;
+    }
+    .banner .nav-link::after{
+        background: transparent;
+    }
+    .feature-box {
+        width: 165%;
+    }
+    .f2 {
+        margin-left: 150px;
+    }
+    .card-img {
+        width: 295px;
+    }
+    .card-img .news-container {
+        width: 290px;
+    }
+    .card-img .news-container p {
+        margin-bottom: 80px;
+    }
+    .footer-inner {
+        margin-top: 250px;
+    }
     
     
   }
@@ -397,8 +425,79 @@ ul, ol{
   
   @media (min-width: 481px) and (max-width: 767px) {
     
-    
-    
+    .banner {
+        background-size: 45%;
+    }
+    .banner-inner{
+        margin-left: 50px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: rgb(173 181 189 / 50%);
+    }
+    .banner .nav-link{
+        color: #101010 !important;
+    }
+    .banner .nav-link::after{
+        content: '';
+        background: rgba(0,0,0,.1);
+        height: 1px;
+        width: 91%;
+        position: absolute;
+        left: 14px;
+        margin: 24px 0px;
+    }
+    .feature-box{
+        width: 85%;
+    }
+    .image-02 {
+        padding-left: 480px;
+        margin-top: -160px;
+    }
+    .f2 {
+        margin-left: 170px;
+        width: 85%;
+    }
+    .image-03 {
+        margin-top: -110px;
+        padding-left: 0px;
+        margin-left: -10px;
+    }
+    .feature-button .btn {
+        margin-top: 100px;
+        margin-right: 160px;
+    }
+    .statistics-container p{
+        font-size: 16px;
+    }
+    .card-img {
+        background-position: center !important;
+        background-repeat: no-repeat;
+        margin: 40px 80px;
+    }
+    .news{
+        margin-bottom: 70px;
+    }
+    .blue-bg-form h4 {
+        font-size: 20px;
+    }
+    .blue-bg-form {
+        background: #3072c0 url(../img/form-bg.png) center left -155px no-repeat;
+        background-size: 104%;
+    }
+    .blue-bg-form form .name {
+        width: 70%;
+    }
+    .first-footer{
+        margin-top: 200px !important;
+    }
+    .footer-inner{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .social-icons{
+        margin-left: 175px;
+    }
+
   }
   
   /* 
